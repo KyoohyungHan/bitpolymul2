@@ -1,7 +1,7 @@
 file(GLOB_RECURSE SRCS *.cpp *.c)
 
 
-add_library(bitpolymul STATIC ${SRCS})
+add_library(bitpolymul SHARED ${SRCS})
 
 if(MSVC)
 
